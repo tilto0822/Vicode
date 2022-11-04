@@ -1,0 +1,32 @@
+{
+  "name": "vicode",
+  "version": "0.0.1",
+  "description": "A Simple Visual Scripting Library With Typescript",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "repository": "https://github.com/tilto0822/Vicode.git",
+  "author": "Tilto_ <tilto0822@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "packageManager": "yarn@3.2.4",
+  "devDependencies": {
+    "@swc/cli": "^0.1.57",
+    "@swc/core": "^1.3.14",
+    "@types/node": "^18.11.9",
+    "@types/uuid": "^8.3.4",
+    "eslint": "^8.26.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-import-resolver-typescript": "^3.5.2",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-simple-import-sort": "^8.0.0",
+    "nodemon": "^2.0.20",
+    "prettier": "^2.7.1",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "uuid": "^9.0.0"
+  }
+}
