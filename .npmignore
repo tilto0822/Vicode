@@ -1,0 +1,16 @@
+# setting files
+.vscode/
+.yarn/
+
+# code files
+src/
+.eslintrc
+.gitattributes
+.pnp.cjs
+.pnp.loader.mjs
+.prettierrc
+.swcrc
+tsconfig.json
+
+# unused files
+*.tsbuildinfo

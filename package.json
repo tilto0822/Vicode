@@ -1,5 +1,5 @@
 {
-  "name": "vicode",
+  "name": "@tilto/vicode",
   "version": "0.0.1",
   "description": "A Simple Visual Scripting Library With Typescript",
   "main": "build/index.js",
