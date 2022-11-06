@@ -1,4 +1,4 @@
-export interface NodePosition {
+export type NodePosition = {
   posX: number;
   posY: number;
 }

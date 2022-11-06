@@ -1,6 +1,6 @@
 import DataInputVariant from './DataInputVariant';
 
-export interface DataInput<T> {
+export type DataInput<T> = {
   isInputOpened: boolean;
   inputValue: T | null;
   inputVariant: DataInputVariant;

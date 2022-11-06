@@ -1,6 +1,6 @@
 import { NodeShape } from './NodeShape';
 
-export interface NodeStyle {
+export type NodeStyle = {
   readonly color: string;
   readonly shape: NodeShape;
 }

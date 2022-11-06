@@ -12,7 +12,6 @@
     "isolatedModules": true,
     "incremental": true,
     "declaration": true,
-    "sourceMap": true,
     "baseUrl": "src",
     "outDir": "build",
     "paths": {}
