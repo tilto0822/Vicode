@@ -8,12 +8,11 @@
   "author": "Tilto_ <tilto0822@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "prepublish": "yarn node script/prepublish.js"
   },
   "packageManager": "yarn@3.2.4",
   "devDependencies": {
-    "@swc/cli": "^0.1.57",
-    "@swc/core": "^1.3.14",
     "@types/node": "^18.11.9",
     "@types/uuid": "^8.3.4",
     "eslint": "^8.26.0",

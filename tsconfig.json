@@ -17,6 +17,6 @@
     "outDir": "build",
     "paths": {}
   },
-  "include": ["src/**/*"],
-  "exclude": ["node_modules", ".yarn"]
+  "include": ["src/**/*", "src/ViCode.ts"],
+  "exclude": ["node_modules", ".yarn", "script", "build"]
 }
