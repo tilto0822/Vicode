@@ -4,7 +4,7 @@ import NodeConnection from './NodeConnection';
 /**
  * This class is responsible for managing the nodes in the scene.
  */
-export class NodeManger {
+export class NodeManager {
   private _nodeMap: Map<string, BaseNode>;
   private _connectionMap: Map<string, NodeConnection>;
 
@@ -108,4 +108,4 @@ export class NodeManger {
   }
 }
 
-export default NodeManger;
+export default NodeManager;

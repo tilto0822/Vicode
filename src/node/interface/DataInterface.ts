@@ -1,4 +1,4 @@
-import NodeManger from '../NodeManager';
+import NodeManager from '../NodeManager';
 import { BaseInterface } from './BaseInterface';
 import CachedData from './CachedData';
 import DataInput from './DataInput';
@@ -41,7 +41,7 @@ export class DataInterface<T> extends BaseInterface {
   /**
    * @returns The cached data.
    */
-  public async getCache(manager: NodeManger): Promise<CachedData<T>> {
+  public async getCache(manager: NodeManager): Promise<CachedData<T>> {
     if (this._cache.isCached) {
       if (this._cache.expiration) {
         if (this._cache.expiration.getTime() < new Date().getTime()) {
